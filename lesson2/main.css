@@ -1,0 +1,60 @@
+.block1, .block3 ,.block2-1, .block2-2, .block2-3{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    background: none;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+.block1{
+
+    background: #2828ad;
+    height: 100px;
+    width: 350px;
+    align-items: center;
+    border-radius: 10px;
+}
+.block2{
+
+    display: flex;
+    justify-content:space-between;
+    background:none;
+    height: 100px;
+    width: 350px;
+    border-radius: 10px;
+    gap: 10px;
+
+}
+.block3{
+
+    background: #2828ad;
+    height: 200px;
+    width: 350px;
+    border-radius: 10px;
+}
+.block2-1{
+    background: gold;
+    height: 100px;
+    width: 110px;
+    border-radius: 5px;
+}
+.block2-2{
+    background: gold;
+    height: 100px;
+    width: 110px;
+    border-radius: 5px;
+}
+.block2-3{
+    background: gold;
+    height: 100px;
+    width: 110px;
+    border-radius: 5px;
+}
