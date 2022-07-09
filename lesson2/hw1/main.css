@@ -40,21 +40,10 @@
     width: 350px;
     border-radius: 10px;
 }
-.block2-1{
+.block2-1,.block2-2, .block2-3{
     background: gold;
     height: 100px;
     width: 110px;
     border-radius: 5px;
 }
-.block2-2{
-    background: gold;
-    height: 100px;
-    width: 110px;
-    border-radius: 5px;
-}
-.block2-3{
-    background: gold;
-    height: 100px;
-    width: 110px;
-    border-radius: 5px;
-}
+

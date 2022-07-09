@@ -7,27 +7,7 @@
     justify-content: center;
 
 }
-.responsive_design{
-    margin: 5px 5px 5px 5px;
-    background: none;
-    height: 350px;
-    width: 250px;
-    border:1px solid #b9b6b6;
-    padding-left: 20px;
-    padding-right: 20px;
-    box-sizing: border-box;
-}
-.interface_design{
-    margin: 5px 5px 5px 5px;
-    background: none;
-    height: 350px;
-    width: 250px;
-    border:1px solid #b9b6b6;
-    padding-left: 20px;
-    padding-right: 20px;
-    box-sizing: border-box;
-}
-.web_development{
+.responsive_design, .interface_design, .web_development{
     margin: 5px 5px 5px 5px;
     background: none;
     height: 350px;
