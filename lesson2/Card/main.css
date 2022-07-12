@@ -1,0 +1,56 @@
+body{
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+.father{
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    box-sizing: border-box;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #257c7c;
+    font-size: 70px;
+    height: 150px;
+    width: 150px;
+
+}
+.card{
+    border-radius: 20px;
+    display: flex;
+    width: 450px;
+    height: 150px;
+    border: 2px solid silver;
+    gap: normal;
+    margin: 0;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 350px;
+    height: 150px;
+
+
+}
+.icon>i{
+    width: 70px;
+    height: 50px;
+}
+.text>h3{
+    font-size: 30px;
+    margin: 0;
+
+}
+.text>p{
+    font-size: 20px;
+    margin-left: 30px;
+}
