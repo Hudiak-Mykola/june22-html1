@@ -4,6 +4,7 @@
     display: flex;
     flex-direction: column;
     row-gap: 5px;
+    border: 1px solid black;
 }
 .main1{
     height: 80px;
@@ -113,6 +114,13 @@
 .tools_store1{
     display: none;
 }
+.txt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #d06868;
+}
+
 
 @media screen and (max-width: 800px){
     body{
@@ -125,6 +133,10 @@
     }
     .main2{
         flex-direction: column;
+        height: 800px;
+    }
+    .main1{
+        height: 60px;
     }
     .tools_store1{
         display: flex;
@@ -166,7 +178,19 @@
     .store_tools{
         display: none;
     }
-
+    .bath_ad{
+        height: 150px;
+    }
+    .types{
+        width: 100%;
+        height: 70%;
+        background: #7a7a79;
+    }
+    .related{
+        width: 100%;
+        height: 30%;
+        background: #7a7a79;
+    }
 
 
 }
