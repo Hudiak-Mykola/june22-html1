@@ -1,0 +1,78 @@
+
+.father{
+    height: 100%;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    background: #b9b6b6;
+}
+.h200{
+    height: 200px;
+}
+.A{
+    width: 100%;
+    background: #257c7c;
+}
+.two{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.two1{
+    width: 75%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+.F{
+    width: 25%;
+    height: 400px;
+    background: #e0ad31;
+}
+.B{
+    width: 100%;
+    background: #a46565;
+}
+.C,.D,.E{
+    width: 33.3%;
+    background: #257c7c;
+}
+.A,.B,.C,.D,.E,.F{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.father,.two,.A,.two1,.F,.CDE,.B,.C,.D,.E{
+    border-radius: 15px;
+    display: flex;
+    column-gap: 5px;
+    row-gap: 5px;
+
+}
+@media screen and (max-width: 800px){
+    .two{
+       display: flex;
+        flex-direction: column;
+    }
+    .F,.two1{
+        width: 100%;
+        height: 100%;
+    }
+    .C,.D,.E{
+        height: 150px;
+    }
+    .A,.F{
+        height: 100px;
+    }
+    .C,.D,.E{
+        width: 150px;
+        height: 150px;
+    }
+    .CDE{
+        justify-content: space-around;
+    }
+
+
+
+}
